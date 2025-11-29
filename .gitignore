@@ -1,0 +1,20 @@
+# Arquivos de sistema
+Thumbs.db
+.DS_Store
+
+# Arquivos temporários do VS Code
+.vscode/
+*.code-workspace
+
+# Arquivos temporários / caches
+*.log
+*.tmp
+
+# Arquivos de backup do MySQL Workbench
+*.bak
+*.mwb.bak
+
+# Ambiente virtual ou libs locais 
+node_modules/
+venv/
+.env

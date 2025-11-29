@@ -14,10 +14,10 @@
 
 ## **📂 Acesso Rápido aos Arquivos**
 
-* 📘 **Modelagem (Workbench)** → [db-schema.mwb](./db-schema.mwb)
-* 🖼️ **Diagrama ER (PNG)** → [db-schema.png](./db-schema.png)
-* 📄 **Diagrama ER (PDF)** → [db-schema.pdf](./db-schema.pdf)
-* 💾 **Script SQL** → [db-schema.sql](./db-schema.sql)
+* 📘 **Modelagem (Workbench)** → [db-schema.mwb](./database/db-schema.mwb)
+* 🖼️ **Diagrama ER (PNG)** → [db-schema.png](./database/db-schema.png)
+* 📄 **Diagrama ER (PDF)** → [db-schema.pdf](./database/db-schema.pdf)
+* 💾 **Script SQL** → [db-schema.sql](./database/db-schema.sql)
 
 ---
 
@@ -69,15 +69,15 @@ Inclui o diagrama ER, script SQL completo e o arquivo editável criado no MySQL 
 ### **Abrir o modelo**
 
 Abra o arquivo:
-`db-schema.mwb`
+`database/db-schema.mwb`
 
 ### **Criar o banco via script**
 
 Execute no MySQL:
 
 ```sql
-source db-schema.sql;
-```
+source database/db-schema.sql;
+````
 
 ---
 
